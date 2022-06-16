@@ -1,0 +1,39 @@
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background: #ffffff;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+ul, ol{
+	list-style: none;
+	text-align: center;
+}
+
+.nav li a{
+	background-color: #000000;
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 120px;
+
+	display: block;
+}
+.nav li a:hover{
+	background-color: #ef8354;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav >li{
+	float: left;
+}
