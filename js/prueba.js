@@ -1,1 +1,1 @@
-window.alert("Te quiero cojer");
+window.alert("te amo");
